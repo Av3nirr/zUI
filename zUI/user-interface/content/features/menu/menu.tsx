@@ -223,7 +223,7 @@ function Menu() {
       ...prev,
       [LastMenu]: index,
     }));
-    handleIndexChange(indexHistory[NewMenu] || 0);
+    handleIndexChange(indexHistory[NewMenu] || 1);
     await sleep(100);
     setDescription("");
   });
